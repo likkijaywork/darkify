@@ -1,0 +1,21 @@
+{
+  "action": {
+    "default_popup": "popup.html",
+      "default_icon": {
+        "48": "/assets/icons/48.png",
+        "128": "/assets/icons/128.png"
+      }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "A Google Chrome extension to apply dark theme to websites.",
+  "icons": {
+    "48": "/assets/icons/48.png",
+    "128": "/assets/icons/128.png"
+  },
+  "manifest_version": 3,
+  "name": "Darkify",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "version": "1.0"
+}
